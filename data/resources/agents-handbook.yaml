@@ -1,0 +1,15 @@
+name: Agents Handbook
+repo: https://github.com/0xrome/agentshandbook
+tagline: Remote MCP server and skills with sourced playbooks for real jobs done with AI agents
+description: >-
+  Agents Handbook lets OpenCode look up a playbook before an unfamiliar real-world job,
+  such as a bill dispute, an inbox digest or a literature review. Each playbook has a prompt,
+  steps with checks, human checkpoints, known failures and public sources. Add the remote MCP
+  server with `"mcp": { "agentshandbook": { "type": "remote", "url": "https://agentshandbook.com/mcp" } }`
+  in opencode.json (no sign-in to read), or install the playbooks as Agent Skills with
+  `npx skills add 0xrome/agentshandbook`. Content is CC BY 4.0.
+homepage: https://agentshandbook.com
+tags:
+  - mcp-server
+  - skills
+  - playbooks
